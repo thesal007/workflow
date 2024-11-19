@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dndflow{
+    @apply flex flex-row h-full flex-grow;
+}
+.dndflow .reactflow-wrapper{
+    @apply flex flex-grow;
+}
